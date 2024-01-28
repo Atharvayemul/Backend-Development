@@ -6,6 +6,7 @@ const app = express();
 //     res.send('Server is ready')
 // })
 
+
 app.get('/jokes', (req, res) => {
     const jokes = [{
             id: 1,
