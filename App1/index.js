@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/twitter', (req, res) => {
-    res.send('Twitter')
+    res.send('Twitter Please login')
 })
 
 app.get('/login', (req, res) => {
